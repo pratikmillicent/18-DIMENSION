@@ -1,5 +1,11 @@
 .menu {
  position: absolute;
- top: calc(100vh - 100%);
+ top: calc(100dvh - 100%);
  right: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+ .menu {
+  right: 0px !important;
+ }
 }
