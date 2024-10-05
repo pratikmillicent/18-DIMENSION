@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+
+.home-heading {
+  position: relative;
+}
+
+.hero-title-home {
+  font-size: 6vw;
+  text-transform: uppercase;
+  transform: scale(1, 2);
+}
+
+.hero-subtitle-home {
+  letter-spacing: 40px;
+  position: absolute;
+  bottom: 1em;
+}
+
+.libre-bodoni-400 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.libre-bodoni-500 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.libre-bodoni-600 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.libre-bodoni-700 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-subtitle-home {
+    bottom: -1em;
+    letter-spacing: 7px;
+  }
+}
