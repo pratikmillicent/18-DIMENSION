@@ -1,0 +1,5 @@
+.menu {
+ position: absolute;
+ top: calc(100vh - 100%);
+ right: 30px !important;
+}
