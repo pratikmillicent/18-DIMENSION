@@ -11,9 +11,9 @@
 }
 
 .hero-subtitle-home {
-  letter-spacing: 40px;
+  letter-spacing: 3vw;
   position: absolute;
-  bottom: 1em;
+  bottom: 2vw;
 }
 
 .libre-bodoni-400 {
@@ -22,18 +22,21 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .libre-bodoni-500 {
   font-family: "Libre Bodoni", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
+
 .libre-bodoni-600 {
   font-family: "Libre Bodoni", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
+
 .libre-bodoni-700 {
   font-family: "Libre Bodoni", serif;
   font-optical-sizing: auto;
