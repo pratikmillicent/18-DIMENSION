@@ -6,8 +6,6 @@ Function Scroll Effects
 
 
 	window.ScrollEffects = function() {
-
-		alert();
 		
 		gsap.defaults({overwrite: "auto"});	
 		gsap.registerPlugin(ScrollTrigger, Flip);
