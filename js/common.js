@@ -1398,7 +1398,7 @@ Function Scroll Effects
 						gsap.to(changeHeaderElement, {
 							scrollTrigger: {
 								trigger: changeHeaderElement,
-								start: "top 8%",									
+								start: "top 92%",									
 								end: () => `+=${changeHeaderElement.offsetHeight}`,
 								//markers: true,
 								onEnter: function() {
