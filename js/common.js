@@ -1555,6 +1555,7 @@ Function Scroll Effects
         setTimeout(function () {
           var changeHeaderColor = gsap.utils.toArray(".change-header-color");
           changeHeaderColor.forEach(function (changeHeaderElement) {
+            console.log("changeHeaderElement", changeHeaderElement);
             var pageHeader = document.querySelector("header");
             gsap.to(changeHeaderElement, {
               scrollTrigger: {
