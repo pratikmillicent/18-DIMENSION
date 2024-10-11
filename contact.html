@@ -571,6 +571,30 @@
     </div>
     <div id="rotate-device"></div>
 
+    <script>
+      function initMap() {
+        const myLocation = { lat: -34.397, lng: 150.644 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 8,
+          center: myLocation,
+        });
+        const marker = new google.maps.Marker({
+          position: myLocation,
+          map: map,
+        });
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+      async
+      defer
+    ></script>
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+      async
+      defer
+    ></script> -->
+
     <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
@@ -578,7 +602,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.4.0/smooth-scrollbar.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpK1sWi3J3EbUOkF_K4-UHzi285HyFX5M&sensor=false"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpK1sWi3J3EbUOkF_K4-UHzi285HyFX5M&sensor=false"></script> -->
 
     <script src="js/clapat.js"></script>
     <script src="js/plugins.js"></script>
