@@ -13,6 +13,7 @@
     <link href="style.css" rel="stylesheet" />
     <link href="css/all.min.css" rel="stylesheet" />
     <link href="css/override.css" rel="stylesheet" />
+    <link href="/css/home/home.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
       rel="stylesheet"
@@ -52,8 +53,8 @@
         <!-- Page Content -->
         <div
           id="clapat-page-content"
-          class="dark-content"
-          data-bgcolor="#f9f9f9"
+          class="light-content"
+          data-bgcolor="#0c0c0c"
         >
           <!-- Header -->
           <header
@@ -158,6 +159,28 @@
                             </div>
                           </a>
                         </li>
+                        <li class="link menu-timeline">
+                          <a
+                            class="ajax-link"
+                            data-type="page-transition"
+                            href="projects.html"
+                          >
+                            <div class="before-span">
+                              <span data-hover="PROJECTS">PROJECTS</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="link menu-timeline">
+                          <a
+                            class="ajax-link"
+                            data-type="page-transition"
+                            href="contact.html"
+                          >
+                            <div class="before-span">
+                              <span data-hover="CONTACT">CONTACT</span>
+                            </div>
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -192,7 +215,7 @@
             <!-- Main -->
             <div id="main">
               <!-- Hero Section -->
-              <div id="hero" class="has-image autoscroll1">
+              <div id="hero" class="has-image text-shadow autoscroll1">
                 <div id="hero-styles">
                   <div
                     id="hero-caption"
@@ -271,15 +294,7 @@
                     style="
                       background-image: url(images/hero-images/marketing.webp);
                     "
-                  >
-                    <div class="hero-video-wrapper">
-                      <img
-                        class="black-logo"
-                        src="images/hero-images/marketing.webp"
-                        alt="ClaPat Logo"
-                      />
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
               <!--/Hero Section -->
@@ -289,7 +304,7 @@
                 <div id="main-page-content">
                   <!-- Row -->
                   <div
-                    class="content-row row_padding_top row_padding_bottom dark-section change-header-color text-align-center"
+                    class="content-row row_padding_top row_padding_bottom dark-section text-align-center"
                     data-bgcolor="#171717"
                   >
                     <h1 class="primary-font-title has-mask-fill">
@@ -381,7 +396,7 @@
 
                   <!-- Row -->
                   <div
-                    class="content-row row_padding_top row_padding_bottom dark-section change-header-color text-align-center"
+                    class="content-row row_padding_top row_padding_bottom dark-section text-align-center"
                     data-bgcolor="#171717"
                   >
                     <h1 class="primary-font-title has-mask-fill">
@@ -403,7 +418,7 @@
                 <!--/Main Page Content -->
 
                 <!-- Project Navigation -->
-                <div id="project-nav" class="change-header">
+                <div id="project-nav" class="">
                   <div class="next-project-wrap">
                     <p class="all-works">
                       <a
@@ -431,7 +446,9 @@
                           ></a>
                           <div class="next-caption">
                             <div class="next-hero-subtitle"><span></span></div>
-                            <div class="next-hero-title primary-font-title">
+                            <div
+                              class="next-hero-title primary-font-title text-shadow"
+                            >
                               <span>next case</span>
                             </div>
                           </div>
