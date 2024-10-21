@@ -22,6 +22,7 @@ jQuery(function ($) {
 		PlayVideo();
 		ContactMap();
 		CustomFunction();
+		KeyboardScroll();
 	});
 	
 	
@@ -2236,7 +2237,7 @@ Function Showcase Gallery
 		ContactForm();
 		ContactMap();
 		CustomFunction();
-		
+		KeyboardScroll();
 	}//End Load Via Ajax
 	
 });	
