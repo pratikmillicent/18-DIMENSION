@@ -1579,7 +1579,7 @@ i.arrow-icon-up::after {
 @keyframes rotating {
   0% {
     -webkit-transform: translate(-14px, -14px) rotate(0deg);
-    transform: translate(-14px, -14px)) rotate(0deg);
+    transform: translate(-14px, -14px) rotate(0deg);
   }
 
   95% {
@@ -3839,10 +3839,6 @@ nav.open {
     margin: 0 auto;
   }
 
-  #logo {
-    left: 30px;
-  }
-
   .button-wrap.right.menu {
     right: 4px;
   }
@@ -4036,7 +4032,8 @@ nav.open {
   }
 
   #logo {
-    left: 20px;
+    /* left: 20px; */
+    padding: 0 20px;
   }
 
   .button-wrap.right.menu {
