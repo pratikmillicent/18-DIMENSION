@@ -2016,13 +2016,17 @@ dt.accordion-active .acc-button-icon i {
 
 .name-box,
 .email-box,
+.phone-box,
+.company-box,
 .message-box {
   position: relative;
   display: block;
 }
 
 .name-box,
-.email-box {
+.email-box, 
+.phone-box, 
+.company-box {
   width: 47%;
   float: left;
   margin-bottom: 20px;
@@ -2031,13 +2035,16 @@ dt.accordion-active .acc-button-icon i {
 }
 
 .name-box::after,
-.email-box::after {
+.email-box::after, 
+.phone-box::after, 
+.company-box::after {
   clear: both;
   content: " ";
   display: table;
 }
 
-.email-box {
+.phone-box, 
+.company-box {
   margin-right: 0px;
 }
 
@@ -3692,7 +3699,9 @@ input[type="submit"] {
   }
 
   .name-box,
-  .email-box {
+  .email-box, 
+  .phone-box, 
+  .company-box {
     width: 100%;
     margin-right: 0;
   }
