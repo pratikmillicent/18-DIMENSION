@@ -1,4 +1,5 @@
 .team-row {
+ display: none;
  text-align: center;
 }
 
@@ -8,6 +9,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+ .team-row {
+  display: block;
+ }
+
  .mobile-hidden {
   display: none;
  }
