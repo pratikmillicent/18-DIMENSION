@@ -1186,6 +1186,10 @@ span.has-hover-image.vertical .hover-reveal {
   opacity: 0.2;
 }
 
+.has-opacity, .has-opacity * {
+  font-size: 20px;
+}
+
 .number-counter {
   position: relative;
   display: table;
