@@ -1,0 +1,14 @@
+.team-row {
+ text-align: center;
+}
+
+.team-row li {
+ list-style: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+ .mobile-hidden {
+  display: none;
+ }
+}
